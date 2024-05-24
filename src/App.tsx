@@ -1,25 +1,29 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import { NextUIProvider } from '@nextui-org/react';
+
+import { Card } from '@nextui-org/react';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+
+    <NextUIProvider>
+      
+      
+      <div className="flex flex-row min-h-screen min-w-screen justify-center items-center">
+        <Card className="flex"> 
+          <Card>
+            Dude!
+          </Card>
+        </Card>
+      </div>
+    
+    
+    
+    
+    </NextUIProvider>
+
   );
 }
 
