@@ -12,17 +12,18 @@ import { Image } from '@nextui-org/react';
 
 import NavbarComponent from './components/NavbarComponent';
 import Sidebar from './components/Sidebar';
+import ContentComponent from './components/ContentComponent';
 
 
 export default function App() {
 
   const [content, setContent] = useState('about-me');
 
-  useEffect(() => {
+  // useEffect(() => {
 
-    alert(content);
+  //   alert(content);
 
-  }, [content]);
+  // }, [content]);
 
 
   return (    
@@ -40,15 +41,9 @@ export default function App() {
           </div>
 
           <div className="flex flex-col justify-center items-center w-full h-full font-sourceCodePro">
-            {/* put media query here to change box aspect ratio, 8.5*11 when screen size is wide, and wider when screen is thin */}
-            <Card className="flex mx-8 sm:w-full lg:w-5/12 h-5/6 p-3" radius="none" shadow="md">
-              <CardBody>
-                <h1> About Me </h1>
-                <p> I am a full-stack developer with a passion for creating and learning. </p>
-              </CardBody>
-            </Card>
-          
-          
+            {/* put media query here to change box aspect ratio, 8.5*11 when screen size is wide, and wider when screen is thin */}          
+            <ContentComponent currentState={content}/>
+
           </div>
         </div>
       
