@@ -8,32 +8,45 @@ import { Link } from '@nextui-org/react';
 
 
 
-
 export default function NavbarComponent() {
-
-
+    
+    
+    // need onCLick to scroll to desired section in page
     return (    
-        // make navbar scroll to desired section in page
-        <Navbar className="flex bg-orange-200 font-sourceCodePro font-bold shadow-md">
-            <NavbarContent justify="center">
-                {/* maybe replace () with {} ? */}
-                <NavbarItem>
-                    <Link> (about me) </Link>
-                </NavbarItem>
-                <NavbarItem>
-                    <Link> (skills) </Link>
-                </NavbarItem>
-                <NavbarItem>
-                    <Link> (education) </Link>
-                </NavbarItem>
-                <NavbarItem>
-                    <Link> (experience) </Link>
-                </NavbarItem>
-            </NavbarContent>
+    //     // make navbar scroll to desired section in page
+    //     <Navbar className="flex bg-amber-200 font-sourceCodePro font-bold shadow-md">
+    //         <NavbarContent>
+    //             {/* maybe replace () with {} ? */}
+    //             <NavbarItem>
+    //                 <Link underline="focus"> {'{'} about me {'}'} </Link>
+    //             </NavbarItem>
+    //             <NavbarItem>
+    //                 <Link underline="focus">  {'{'} skills {'}'} </Link>
+    //             </NavbarItem>
+    //             <NavbarItem>
+    //                 <Link underline="focus">  {'{'} education {'}'} </Link>
+    //             </NavbarItem>
+    //             <NavbarItem>
+    //                 <Link underline="focus">  {'{'} experience {'}'} </Link>
+    //             </NavbarItem>
+    //         </NavbarContent>
+    //     </Navbar>
+
+        <Navbar className="justify-evenly bg-amber-200 font-sourceCodePro font-bold shadow-md">
+            <NavbarItem>
+                <Link underline="focus"> {'{'} about me {'}'} </Link>
+            </NavbarItem>
+            <NavbarItem>
+                <Link underline="focus">  {'{'} skills {'}'} </Link>
+            </NavbarItem>
+                <Link underline="focus">  {'{'} education {'}'} </Link>
+            <NavbarItem>
+                <Link underline="focus">  {'{'} experience {'}'} </Link>
+            </NavbarItem>
         </Navbar>
+        
+
+
     );
-
 }
-
-
 
