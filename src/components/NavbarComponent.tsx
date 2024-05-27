@@ -16,6 +16,7 @@ export default function NavbarComponent( {setContent} : {setContent: Dispatch<Se
         <Navbar className="justify-evenly bg-amber-200 font-sourceCodePro font-bold shadow-md">
             <NavbarItem>
                 <Link className="cursor-pointer m-2" 
+                    color="primary"
                     isBlock={true}
                     onPress={(e)=>setContent('about-me')}
                     underline="focus"> 

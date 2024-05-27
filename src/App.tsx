@@ -30,7 +30,7 @@ export default function App() {
     <NextUIProvider>
       <div id="main-container" className="flex flex-row min-h-screen min-w-screen bg-white">
 
-        <div id="sidebar" className="flex min-h-full bg-green-800">
+        <div id="sidebar" className="flex min-h-full bg-emerald-500">
           {/* contact info + github links here */}
           <Sidebar/>
         </div>
