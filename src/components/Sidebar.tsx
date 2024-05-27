@@ -15,7 +15,7 @@ import pfp from '../assets/portrait.jpg';
 
 
 
-export default function Portrait() {
+export default function Sidebar() {
 
     return (
 

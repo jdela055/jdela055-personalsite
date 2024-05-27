@@ -7,7 +7,7 @@ import { Navbar, NavbarContent, NavbarItem } from '@nextui-org/react';
 import { Link } from '@nextui-org/react';
 
 
-
+// pass in useState setter function to change content in App.tsx
 export default function NavbarComponent( {setContent} : {setContent: Dispatch<SetStateAction<string>>}) {
     
     

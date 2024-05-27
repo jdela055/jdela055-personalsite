@@ -2,7 +2,7 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 
 import { NextUIProvider } from '@nextui-org/react';
 import { Card, CardHeader, CardBody, CardFooter } from '@nextui-org/react';
@@ -11,12 +11,19 @@ import { Card, CardHeader, CardBody, CardFooter } from '@nextui-org/react';
 import { Image } from '@nextui-org/react';
 
 import NavbarComponent from './components/NavbarComponent';
-import Portrait from './components/Portrait';
+import Sidebar from './components/Sidebar';
 
 
 export default function App() {
 
   const [content, setContent] = useState('about-me');
+
+  useEffect(() => {
+
+    alert(content);
+
+  }, [content]);
+
 
   return (    
     <NextUIProvider>
@@ -24,7 +31,7 @@ export default function App() {
 
         <div id="sidebar" className="flex min-h-full bg-green-800">
           {/* contact info + github links here */}
-          <Portrait/>
+          <Sidebar/>
         </div>
 
         <div id="col-container" className="flex flex-col min-h-full w-full bg-blue-500">
