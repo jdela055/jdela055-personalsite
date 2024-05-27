@@ -35,15 +35,17 @@ export default function App() {
           <Sidebar/>
         </div>
 
-        <div id="col-container" className="flex flex-col min-h-full w-full bg-blue-500">
-          <div id="navbar" className="">
+        <div id="col-container" className="flex flex-col min-h-full w-full bg-red-300">
+          <div id="navbar">
             <NavbarComponent setContent={setContent}/>
           </div>
 
-          <div className="flex flex-col justify-center items-center w-full h-full font-sourceCodePro">
+          <div id="content" className="flex justify-center items-center w-full h-full">
             {/* put media query here to change box aspect ratio, 8.5*11 when screen size is wide, and wider when screen is thin */}          
-            <ContentComponent currentState={content}/>
-
+              
+              <div className="w-2/3 xl:w-2/5 h-5/6">
+                <ContentComponent currentState={content}/>
+              </div>
           </div>
         </div>
       

@@ -11,13 +11,10 @@ export default function ContentComponent( {currentState} : {currentState: string
     
     if (currentState === 'about-me') {
         return <AboutMe/>;
-        
     }
 
     else if (currentState === 'skills') {
         return <Skills/>;
-        
-
     }
 
     else if (currentState === 'education') {

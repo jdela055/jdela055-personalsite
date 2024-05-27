@@ -9,6 +9,7 @@ import { FaLinkedin } from 'react-icons/fa6';
 import { Link } from '@nextui-org/react';
 
 
+
 import pfp from '../assets/portrait.jpg';
 // import GithubLogo from '../assets/github_logo.png';
 // import LinkedinLogo from '../assets/linkedin_logo.png';
@@ -31,7 +32,6 @@ export default function Sidebar() {
                 alt='portrait'
             />
             
-
             <div className="flex flex-col justify-center items-center h-full w-full text-lg">
                 
                 <div className="flex flex-col h-1/2 justify-evenly">
@@ -56,7 +56,7 @@ export default function Sidebar() {
                     <Link isExternal href="https://github.com/jdela055">
                         <FaGithub className="w-16 h-16 text-amber-200"/>
                     </Link>
-                    <Link href="https://www.linkedin.com/in/julian-dela-rosa-billings-343500265/">
+                    <Link isExternal href="https://www.linkedin.com/in/julian-dela-rosa-billings-343500265/">
                         <FaLinkedin className="w-16 h-16 text-amber-200"/>
                     </Link>
                 
