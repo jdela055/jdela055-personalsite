@@ -10,7 +10,7 @@ module.exports = {
     extend: {
       
       screens: {
-        'xl': '1400px',
+        '2xl': "1440px",
       },
       fontFamily: {
         sourceCodePro: ["Source Code Pro"],

@@ -15,21 +15,17 @@ export default function Skills() {
                 </div>
             </CardHeader>
             <Divider/>
-            <CardBody>
+            <CardBody className="flex gap-10">
                 <p> I got mad skills, yo. </p>
-                
-                <ul className="list-disc pl-5">
-                    <li>
-                        <span className="font-bold"> Languages: </span> C/C++, Python, JavaScript, HTML, CSS, SQL
-                    </li>
-
-                    <li>
-                        <p></p>
-                    </li>
-                </ul>
-
                 <p> I am on-time, honest, and I am highly motivated to make my own way. </p>
+            
+                <p>
+                    <span className="font-bold"> Languages: </span> C/C++, Python, JavaScript, HTML, CSS, SQL
+                </p>
 
+                <p>
+                    <span className="font-bold"> Frameworks: </span> React, Node.js, Express, socket.io, TailwindCSS, NextJS, NextUI
+                </p>
 
             </CardBody>
         </Card>

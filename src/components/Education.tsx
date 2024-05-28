@@ -2,6 +2,10 @@ import React from 'react';
 import { Card, CardHeader, CardBody, Divider } from '@nextui-org/react';
 import { FaUserGraduate } from 'react-icons/fa';
 
+import { Image, Spacer } from '@nextui-org/react';
+
+import ucrLogo from '../assets/ucr_logo.png';
+
 export default function Education() {
 
     return (
@@ -15,8 +19,23 @@ export default function Education() {
                 </div>
             </CardHeader>
             <Divider/>
-            <CardBody>
+            <CardBody className="gap-10">
                 <p> I got mad education, yo. </p>
+
+                <div className="flex flex-row justify-evenly ">
+                    <div className="flex flex-col">
+                        <h1 className="font-bold"> University of California, Riverside </h1>
+                        <p> Bachelor's of Science in Computer Science </p>
+                        <p> 2019-2024 </p>
+                    </div>
+                    <Image
+                        src={ucrLogo}
+                        radius="none"
+                        width="75px"
+                        height="75px"
+                        alt="UCR Logo"
+                    />
+                </div>
             </CardBody>
         </Card>
     );

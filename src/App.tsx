@@ -17,41 +17,35 @@ import ContentComponent from './components/ContentComponent';
 
 export default function App() {
 
-  const [content, setContent] = useState('about-me');
-
-  // useEffect(() => {
-
-  //   alert(content);
-
-  // }, [content]);
-
+  const [content, setContent] = useState('about-me'); //default to about-me
 
   return (    
     <NextUIProvider>
-      <div id="main-container" className="flex flex-row min-h-screen min-w-screen bg-white">
 
-        <div id="sidebar" className="flex min-h-full bg-emerald-500">
-          {/* contact info + github links here */}
-          <Sidebar/>
-        </div>
+      <div className="min-w-screen min-h-screen bg-red-300">
 
-        <div id="col-container" className="flex flex-col min-h-full w-full bg-red-300">
-          <div id="navbar">
-            <NavbarComponent setContent={setContent}/>
+        <div id="main-container" className="flex flex-row min-h-screen min-w-screen bg-red-300">
+          <div id="sidebar" className="flex min-h-full">
+            <Sidebar/>
           </div>
 
-          <div id="content" className="flex justify-center items-center w-full h-full">
-            {/* put media query here to change box aspect ratio, 8.5*11 when screen size is wide, and wider when screen is thin */}          
-              
+          <div id="col-container" className="flex flex-col min-h-full w-full">
+            <div id="navbar">
+              <NavbarComponent content={content} setContent={setContent}/>
+            </div>
+
+            <div id="content" className="flex flex-none justify-center items-center min-w-full min-h-full">
               <div className="w-2/3 xl:w-2/5 h-5/6">
                 <ContentComponent currentState={content}/>
               </div>
+            </div>
+          
           </div>
-        </div>
-      
-      
-      </div>
 
+        </div>
+
+
+      </div>
     </NextUIProvider>
 
   );
