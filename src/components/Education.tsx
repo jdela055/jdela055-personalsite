@@ -19,10 +19,11 @@ export default function Education() {
                 </div>
             </CardHeader>
             <Divider/>
-            <CardBody className="gap-10">
-                <p> I got mad education, yo. </p>
-
-                <div className="flex flex-row justify-evenly ">
+            <CardBody className="gap-5">
+                <p> I got mad education, yo... And I plan on getting more! </p>
+                
+                <Divider/>
+                <div className="flex flex-row justify-evenly items-center">
                     <div className="flex flex-col">
                         <h1 className="font-bold"> University of California, Riverside </h1>
                         <p> Bachelor's of Science in Computer Science </p>
@@ -36,6 +37,7 @@ export default function Education() {
                         alt="UCR Logo"
                     />
                 </div>
+                <Divider/>
             </CardBody>
         </Card>
     );
