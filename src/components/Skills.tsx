@@ -5,7 +5,7 @@ import { FaMicrochip } from 'react-icons/fa6';
 export default function Skills() {
 
     return (
-        <Card className="w-full h-full p-4 font-sourceCodePro" radius="none" shadow="md">
+        <Card className="text-lg xl:text-xl w-full h-full p-4 font-sourceCodePro" radius="none" shadow="md">
             <CardHeader>
                 <div className="flex w-1/2 justify-start">
                     <h1 className="font-bold"> Skills </h1>
@@ -17,6 +17,9 @@ export default function Skills() {
             <Divider/>
             <CardBody>
                 <p> I got mad skills, yo. </p>
+                
+
+
             </CardBody>
         </Card>
     );

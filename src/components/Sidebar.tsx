@@ -22,9 +22,10 @@ export default function Sidebar() {
 
         <div className="flex flex-col items-center text-white font-sourceCodePro">
             {/* contact info + github links here */}
-            <p className="m-8 text-3xl font-bold text-white"> JULIAN DELA ROSA-BILLINGS </p>
+            <p className="m-8 text-3xl xl:text-4xl font-bold text-white"> JULIAN DELA ROSA-BILLINGS </p>
             <div className="flex m-2">
                 <Image
+                    isZoomed
                     width="250px"
                     src={pfp}
                     shadow="md"
@@ -33,8 +34,7 @@ export default function Sidebar() {
                 />
             </div>
             
-            <div className="flex flex-col justify-center items-center h-full w-full text-lg">
-                
+            <div className="flex flex-col justify-center items-center h-full w-full text-xl">
                 <div className="flex flex-col h-1/2 justify-evenly">
                     <div className="flex flex-col justify-center items-center">
                         <FaLocationDot className="text-amber-200"/>
@@ -58,14 +58,14 @@ export default function Sidebar() {
                         href="https://github.com/jdela055"
                         isExternal
                     >
-                        <p className="font-bold text-white"> GitHub </p>
+                        <p className="font-bold text-white text-xl"> GitHub </p>
                         <FaGithub className="w-16 h-16 text-amber-200"/>
                     </Link>
                     <Link className="flex flex-col justify-center"
                         href="https://www.linkedin.com/in/julian-dela-rosa-billings-343500265/"
                         isExternal
                     >
-                        <p className="font-bold text-white"> LinkedIn </p>
+                        <p className="font-bold text-white text-xl"> LinkedIn </p>
                         <FaLinkedin className="w-16 h-16 text-amber-200"/>
                     </Link>
                 

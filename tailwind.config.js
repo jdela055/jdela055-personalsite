@@ -7,7 +7,11 @@ module.exports = {
     "./node_modules/@nextui-org/theme/dist/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {    
+    extend: {
+      
+      screens: {
+        'xl': '1400px',
+      },
       fontFamily: {
         sourceCodePro: ["Source Code Pro"],
         oswald: ["Oswald"],

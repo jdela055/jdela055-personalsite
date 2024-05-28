@@ -15,8 +15,7 @@ export default function NavbarComponent( {setContent} : {setContent: Dispatch<Se
     return (    
         <Navbar className="justify-evenly bg-amber-200 font-sourceCodePro font-bold shadow-md">
             <NavbarItem>
-                <Link className="cursor-pointer m-2" 
-                    color="primary"
+                <Link className="cursor-pointer text-xl" 
                     isBlock={true}
                     onPress={(e)=>setContent('about-me')}
                     underline="focus"> 
@@ -24,7 +23,7 @@ export default function NavbarComponent( {setContent} : {setContent: Dispatch<Se
                 </Link>
             </NavbarItem>
             <NavbarItem>
-                <Link className="cursor-pointer"
+                <Link className="cursor-pointer text-xl"
                     isBlock={true} 
                     onPress={(e)=>setContent('skills')} 
                     underline="focus">  
@@ -32,7 +31,7 @@ export default function NavbarComponent( {setContent} : {setContent: Dispatch<Se
                 </Link>
             </NavbarItem>
             <NavbarItem>
-                <Link className="cursor-pointer" 
+                <Link className="cursor-pointer text-xl" 
                     isBlock={true}
                     onPress={(e)=>setContent('education')} 
                     underline="focus">  
@@ -40,7 +39,7 @@ export default function NavbarComponent( {setContent} : {setContent: Dispatch<Se
                 </Link>
             </NavbarItem>
             <NavbarItem>
-                <Link className="cursor-pointer"
+                <Link className="cursor-pointer text-xl"
                     isBlock={true}
                     onPress={(e)=>setContent('experience')}
                     underline="focus">  

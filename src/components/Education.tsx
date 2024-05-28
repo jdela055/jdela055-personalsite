@@ -5,7 +5,7 @@ import { FaUserGraduate } from 'react-icons/fa';
 export default function Education() {
 
     return (
-        <Card className="w-full h-full p-4 font-sourceCodePro" radius="none" shadow="md">
+        <Card className="text-lg xl:text-xl w-full h-full p-4 font-sourceCodePro" radius="none" shadow="md">
             <CardHeader>
                 <div className="flex w-1/2 justify-start">
                     <h1 className="font-bold"> Education </h1>

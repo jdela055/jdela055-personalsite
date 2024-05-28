@@ -7,7 +7,7 @@ import { Card, CardHeader, CardBody, Divider } from '@nextui-org/react';
 export default function AboutMe() {
 
     return (
-        <Card className="w-full h-full p-4 font-sourceCodePro" radius="none" shadow="md">
+        <Card className="text-lg xl:text-xl w-full h-full p-4 font-sourceCodePro" radius="none" shadow="md">
             <CardHeader id="about-header" className="flex flex-row">
                 <div className="flex w-1/2 justify-start">
                     <h1 className="font-bold"> About Me </h1>
@@ -18,7 +18,11 @@ export default function AboutMe() {
             </CardHeader>
             <Divider/>
             <CardBody>
-                <p> I got mad about-me, yo. </p>
+                <p className=""> Professionally amatuer </p>
+                <p>
+                    I am an intermediate in many things. I am interested in
+                </p>
+
             </CardBody>
         </Card>
     );  
