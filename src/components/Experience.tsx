@@ -15,7 +15,7 @@ export default function Experience() {
                 </div>
             </CardHeader>
             <Divider/>
-            <CardBody className="flex gap-y-9">
+            <CardBody className="flex gap-9">
                 <div>
                     <p> <span className="font-bold"> UCR ITS Multimedia </span> - <span className="italic"> Support Operator </span> </p>
                     <p className="text-md"> 2019-2024 </p>

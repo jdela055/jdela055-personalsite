@@ -17,10 +17,15 @@ export default function AboutMe() {
                 <VscAccount className="w-7 h-7"/>
             </CardHeader>
             <Divider/>
-            <CardBody>
-                <p className=""> Professionally amatuer </p>
+            <CardBody className="flex gap-10">
+                <p> Professionally amatuer! 😎 </p>
                 <p>
-                    I am an intermediate in many things. I am interested in
+                    I've worked on a wide variety of projects and consdier myself an intermediate in many things.
+                    I have a background in mutlimedia and tech support and I am currently studying Computer Science.
+                </p>
+                <p>
+                    I'm currently focused on full-stack web development, but I am always interested in exploring new skills and projects,
+                    and working with new people.
                 </p>
 
             </CardBody>

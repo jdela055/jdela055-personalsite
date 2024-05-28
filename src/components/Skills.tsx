@@ -18,6 +18,17 @@ export default function Skills() {
             <CardBody>
                 <p> I got mad skills, yo. </p>
                 
+                <ul className="list-disc pl-5">
+                    <li>
+                        <span className="font-bold"> Languages: </span> C/C++, Python, JavaScript, HTML, CSS, SQL
+                    </li>
+
+                    <li>
+                        <p></p>
+                    </li>
+                </ul>
+
+                <p> I am on-time, honest, and I am highly motivated to make my own way. </p>
 
 
             </CardBody>
