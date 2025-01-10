@@ -23,9 +23,9 @@ export default function AboutMe() {
                     Welcome to my humble little React Native site! 😎
                     I hope you like the colors, my partner helped me pick them :) and the photo of my dog :) His name is Chewie and he's really cool and I love him :) He's wearing a crown in the photo because it was his birthday :)
                 </p>
-                <br/>
                 <p>
                     This site is a work in progress, I'll keep updating it over time. *note to self: figure out how to make text changes without needing to re-deploy the site*                  
+                    <br/>
                     <br/>
                     👉👈 
                     I'm like looking for a job or something so it sure would be nice and cool if a super cool employer went onto this here site and decided to give me a job :)
