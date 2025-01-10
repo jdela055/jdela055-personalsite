@@ -20,12 +20,11 @@ export default function AboutMe() {
             <CardBody className="flex gap-10">
                 {/* <p> Professionally amatuer! 😎 </p> */}
                 <p>
-                    I've worked on a wide variety of projects and consdier myself an intermediate in many things.
-                    I have a background in multimedia and tech support and I am currently studying Computer Science.
+                    Welcome to my little React Native site! 😎
+                    I hope you like the colors :)
                 </p>
                 <p>
-                    I'm currently focused on full-stack web development, but I am always interested in exploring new skills and projects,
-                    and working with new people.
+                    FOR THE LOVE OF GOD GIVE ME A JOB! 😭
                 </p>
 
             </CardBody>
