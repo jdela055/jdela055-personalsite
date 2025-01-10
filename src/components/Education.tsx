@@ -18,7 +18,7 @@ export default function Education() {
                     <FaUserGraduate className="w-7 h-7"/>
                 </div>
             </CardHeader>
-            <Divider/>
+            {/* <Divider/> */}
             <CardBody className="gap-5">
                 {/* <p> I got mad education, yo... And I plan on getting more! </p> */}
                 
