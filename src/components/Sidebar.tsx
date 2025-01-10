@@ -8,7 +8,8 @@ import { FaLinkedin } from 'react-icons/fa6';
 import { Link } from '@nextui-org/react';
 import { Card, CardHeader, CardBody, CardFooter } from '@nextui-org/react';
 
-import pfp from '../assets/portrait.jpg';
+// import pfp from '../assets/portrait.jpg';
+import pfp from '../assets/THE KING.jpg';
 
 
 export default function Sidebar() {
