@@ -25,7 +25,7 @@ export default function AboutMe() {
                 </p>
                 <br/>
                 <p>
-                    This site is a work in progress, I'll keep updating it over time.                    
+                    This site is a work in progress, I'll keep updating it over time. *note to self: figure out how to make text changes without needing to re-deploy the site*                  
                     <br/>
                     👉👈 
                     I'm like looking for a job or something so it sure would be nice and cool if a super cool employer went onto this here site and decided to give me a job :)
