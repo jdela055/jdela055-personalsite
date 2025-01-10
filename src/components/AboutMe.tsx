@@ -18,7 +18,7 @@ export default function AboutMe() {
             </CardHeader>
             <Divider/>
             <CardBody className="flex gap-10">
-                <p> Professionally amatuer! 😎 </p>
+                {/* <p> Professionally amatuer! 😎 </p> */}
                 <p>
                     I've worked on a wide variety of projects and consdier myself an intermediate in many things.
                     I have a background in multimedia and tech support and I am currently studying Computer Science.

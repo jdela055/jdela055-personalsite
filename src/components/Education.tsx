@@ -20,7 +20,7 @@ export default function Education() {
             </CardHeader>
             <Divider/>
             <CardBody className="gap-5">
-                <p> I got mad education, yo... And I plan on getting more! </p>
+                {/* <p> I got mad education, yo... And I plan on getting more! </p> */}
                 
                 <Divider/>
                 <div className="flex flex-row justify-evenly items-center">
@@ -32,8 +32,8 @@ export default function Education() {
                     <Image
                         src={ucrLogo}
                         radius="none"
-                        width="75px"
-                        height="75px"
+                        width="70px"
+                        height="70px"
                         alt="UCR Logo"
                     />
                 </div>

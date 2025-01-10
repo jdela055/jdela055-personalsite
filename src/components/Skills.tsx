@@ -16,8 +16,8 @@ export default function Skills() {
             </CardHeader>
             <Divider/>
             <CardBody className="flex gap-10">
-                <p> I got mad skills, yo. </p>
-                <p> I am on-time, honest, and I am highly motivated to make my own way. </p>
+                {/* <p> I got mad skills, yo. </p> */}
+                {/* <p> I am on-time, honest, and I am highly motivated to make my own way. </p> */}
             
                 <p>
                     <span className="font-bold"> Languages: </span> C/C++, Python, JavaScript, HTML, CSS, SQL
