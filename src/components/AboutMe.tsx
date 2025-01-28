@@ -24,7 +24,7 @@ export default function AboutMe() {
                     I hope you like the colors, my partner helped me pick them :) and the photo of my dog :) His name is Chewie and he's really cool and I love him :) He's wearing a crown in the photo because it was his birthday :)
                 </p>
                 <p>
-                    I'm actively working on revamping this site with full-blown blog functionality using Next.js and MDX. Stay tuned, and excuse the amatuerishness :) 
+                    I'm actively working on revamping this site with full-blown blog functionality using Next.js and MDX. Stay tuned, and excuse the amateurishness :) 
                     <br/>
                     <br/>
                     👉👈
