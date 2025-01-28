@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/jdela055-personalsite/static/css/main.031fa0f8.css",
-    "main.js": "/jdela055-personalsite/static/js/main.bdd9199a.js",
+    "main.js": "/jdela055-personalsite/static/js/main.f400efb4.js",
     "static/js/453.385b27c9.chunk.js": "/jdela055-personalsite/static/js/453.385b27c9.chunk.js",
     "static/media/THE KING.jpg": "/jdela055-personalsite/static/media/THE KING.faaad96720d1e76ce46b.jpg",
     "static/media/ucr_logo.png": "/jdela055-personalsite/static/media/ucr_logo.056390977f96624d8050.png",
     "index.html": "/jdela055-personalsite/index.html",
     "main.031fa0f8.css.map": "/jdela055-personalsite/static/css/main.031fa0f8.css.map",
-    "main.bdd9199a.js.map": "/jdela055-personalsite/static/js/main.bdd9199a.js.map",
+    "main.f400efb4.js.map": "/jdela055-personalsite/static/js/main.f400efb4.js.map",
     "453.385b27c9.chunk.js.map": "/jdela055-personalsite/static/js/453.385b27c9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.031fa0f8.css",
-    "static/js/main.bdd9199a.js"
+    "static/js/main.f400efb4.js"
   ]
 }
