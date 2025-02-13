@@ -20,11 +20,11 @@ export default function AboutMe() {
             <CardBody className="flex gap-10">
                 {/* <p> Professionally amatuer! 😎 </p> */}
                 <p>
-                    Welcome to my humble little React site! 😎
+                    Welcome to my humble React site! 😎
                     I hope you like the colors, my partner helped me pick them :) and the photo of my dog :) His name is Chewie and he's really cool and I love him :) He's wearing a crown in the photo because it was his birthday :)
                 </p>
                 <p>
-                    I'm actively working on revamping this site with full-blown blog functionality using Next.js and MDX. Stay tuned, and excuse the amateurishness :) 
+                    I'm actively working on revamping this site with blog functionality using Next.js and MDX...
                     <br/>
                     <br/>
                     👉👈
@@ -32,8 +32,8 @@ export default function AboutMe() {
                     👉👈
                     <br/>
                     👉👈
-                    <br/> 
-                    ...it sure would be nice and cool if a super cool employer went onto this here site and decided to give me a job :)
+                    <br/>
+                    <a href="https://gumbubberman.itch.io/kb-rougelike"> link to my only published game :) I hope to work on more games in the future :) </a>
                 </p>
 
             </CardBody>
